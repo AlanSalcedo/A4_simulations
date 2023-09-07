@@ -1,0 +1,17 @@
+JOB ARA_S4_C1_Sim0 ARA_job.sub 
+VARS ARA_S4_C1_Sim0 st="4" config="1" sim_run="0"
+
+JOB ARA_S4_C1_Sim1 ARA_job.sub 
+VARS ARA_S4_C1_Sim1 st="4" config="1" sim_run="1"
+
+JOB ARA_S4_C1_Sim0 ARA_job.sub 
+VARS ARA_S4_C2_Sim0 st="4" config="2" sim_run="0"
+
+JOB ARA_S4_C1_Sim1 ARA_job.sub 
+VARS ARA_S4_C2_Sim1 st="4" config="2" sim_run="1"
+
+JOB ARA_S4_C1_Sim0 ARA_job.sub 
+VARS ARA_S4_C3_Sim0 st="4" config="3" sim_run="0"
+
+JOB ARA_S4_C1_Sim1 ARA_job.sub 
+VARS ARA_S4_C3_Sim1 st="4" config="3" sim_run="1"

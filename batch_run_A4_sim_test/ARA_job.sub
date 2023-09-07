@@ -1,0 +1,18 @@
+log = /home/alansalgo/A4_simulations/batch_run_A4_sim_test/output/A$(st).C$(config).SR$(sim_run).log
+output = /home/alansalgo/A4_simulations/batch_run_A4_sim_test/output/A$(st).C$(config).SR$(sim_run).out
+error  = /home/alansalgo/A4_simulations/batch_run_A4_sim_test/output/A$(st).C$(config).SR$(sim_run).err
+
+request_memory = 2GB
+
+Universe = vanilla
+getenv = true
++TransferOutput = ""
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+nice_user = false
+
+executable = ARA_job.sh
+arguments = $(st) $(config) $(sim_run)
+
+queue
