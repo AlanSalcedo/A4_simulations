@@ -62,7 +62,7 @@ TAUDECAY=0 // (DEFAULT=0) 0: do not allow secondary tau decay. 1: allow secondar
  
 RAYSOL_RANGE=13000 // (DEFAULT=5000) distance from detector above which we do not attempt a ray solution (there is no trigger check beyond this). 
 
-RAY_TRACE_ICE_MODEL_PARAMS=4 //LOOK HERE: WHAT ICE MODEL?  
+RAY_TRACE_ICE_MODEL_PARAMS=40 //LOOK HERE: WHAT ICE MODEL?  
 
 USE_ARA_ICEATENU=2
 
