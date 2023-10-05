@@ -53,9 +53,9 @@ NNU_THETA=0 // (DEFAULT=0) the angle chosen when NNU_THIS_THETA =1 is chosen. Us
  
 NNU_D_THETA=0 // (DEFAULT=0) the range around NNU_THETA (up and down). 
  
-SECONDARIES=0 // (DEFAULT=0) 0: no secondary interactions. 1: future release. 
+SECONDARIES=1 // (DEFAULT=0) 0: no secondary interactions. 1: future release. 
  
-TAUDECAY=0 // (DEFAULT=0) 0: do not allow secondary tau decay. 1: allow secondary decay of tau’s, only works when SECONDARIES =1 in future release. 
+TAUDECAY=1 // (DEFAULT=0) 0: do not allow secondary tau decay. 1: allow secondary decay of tau’s, only works when SECONDARIES =1 in future release. 
  
 
 // ray solving (user guide: see section 3.5 page 10) //
